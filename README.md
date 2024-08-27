@@ -8,6 +8,11 @@ This project demonstrates how to build a serverless API using Rust. It leverages
 - **AWS CLI:** [Install AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html) to manage AWS services.
 - **AWS SAM CLI:** [Install AWS SAM CLI](https://docs.aws.amazon.com/serverless/latest/dg/install-sam-cli.html) for deploying the serverless application.
 
+### Feature 
+- **AWS Lambda Function**: The core of the serverless architecture, handling the business logic and processing requests.
+- **API Gateway:** Acts as the entry point for HTTP requests, routing them to the appropriate Lambda functions.
+- **Example Endpoints:** Demonstrates common API operations, such as GET,POST,PUT and DELETE, with sample payloads.
+- **Deployment Automation:** Scripts and templates to deploy the API using AWS CloundFormation or the Serverless Framework.
 
 ### Build and Deploy
 1. **Build the Application:**
